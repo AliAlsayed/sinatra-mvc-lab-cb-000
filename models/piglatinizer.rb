@@ -1,5 +1,5 @@
 class PigLatinizer
-  
+
   def piglatinize(str)
     a = str.split(" ")
     b = a.map {|word| piglatinize_word(word)}
